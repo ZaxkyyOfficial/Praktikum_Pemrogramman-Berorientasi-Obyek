@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run MBG Desktop (Main)",
+            "request": "launch",
+            "mainClass": "P10_3125522015_MohamadZaky.Main",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--enable-native-access=javafx.graphics --module-path \"${workspaceFolder}/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib/javafx-base-21.0.2-win.jar",
+                "${workspaceFolder}/lib/javafx-controls-21.0.2-win.jar",
+                "${workspaceFolder}/lib/javafx-fxml-21.0.2-win.jar",
+                "${workspaceFolder}/lib/javafx-graphics-21.0.2-win.jar",
+                "${workspaceFolder}/lib/mysql-connector-j-8.3.0.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Run MBG Desktop (AppLauncher Fallback)",
+            "request": "launch",
+            "mainClass": "P10_3125522015_MohamadZaky.AppLauncher",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--enable-native-access=javafx.graphics --module-path \"${workspaceFolder}/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib/javafx-base-21.0.2-win.jar",
+                "${workspaceFolder}/lib/javafx-controls-21.0.2-win.jar",
+                "${workspaceFolder}/lib/javafx-fxml-21.0.2-win.jar",
+                "${workspaceFolder}/lib/javafx-graphics-21.0.2-win.jar",
+                "${workspaceFolder}/lib/mysql-connector-j-8.3.0.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Verify OOP & Exception CLI Test",
+            "request": "launch",
+            "mainClass": "P10_3125522015_MohamadZaky.Main",
+            "args": "--cli-test",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--module-path \"${workspaceFolder}/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "lib/javafx-base-21.0.2-win.jar",
+        "lib/javafx-controls-21.0.2-win.jar",
+        "lib/javafx-fxml-21.0.2-win.jar",
+        "lib/javafx-graphics-21.0.2-win.jar",
+        "lib/mysql-connector-j-8.3.0.jar"
+    ],
+    "java.debug.settings.vmArgs": "--enable-native-access=javafx.graphics --module-path \"${workspaceFolder}/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base"
+}
