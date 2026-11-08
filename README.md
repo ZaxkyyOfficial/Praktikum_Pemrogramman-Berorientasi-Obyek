@@ -251,7 +251,7 @@ Aplikasi mendukung dua titik masuk operasional:
 #### Opsi 1: Menggunakan Skrip Otomatis Windows
 Cukup jalankan berkas batch berikut dari Command Prompt atau PowerShell:
 ```cmd
-run-gui.bat
+.\run-gui.bat
 ```
 Atau melalui parameter pada `run.bat`:
 ```cmd
