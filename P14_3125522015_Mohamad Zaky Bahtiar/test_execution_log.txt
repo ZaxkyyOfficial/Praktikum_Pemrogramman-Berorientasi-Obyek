@@ -1,0 +1,279 @@
+﻿================================================================================
+   PENGUJIAN FUNGSIONAL & REGRESI SISTEM MENU MBG (MODUL PRAKTIKUM P14)         
+================================================================================
+
+[Skenario 1] Tampilkan collection kosong
+[AUTO-LOAD] Berhasil memuat 0 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+Koleksi menu MBG masih kosong.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+
+[Skenario 2] Tambah kode baru dengan judul valid
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+--- TAMBAH PAKET MENU MBG ---
+Kode Menu                       : Nama Menu                       : Input rincian gizi manual? (y/N): Menu berhasil ditambahkan.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Ada perubahan belum disimpan!]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+=== DAFTAR MENU GIZI MBG ===
+MNU-01 - Paket A: Nasi Ayam Teriyaki & Tumis Sayur | Kalori: 680.0 kkal | Protein: 28.5g | Biaya: Rp 15000
+MNU-02 - Paket B: Nasi Telur Balado & Sayur Sop | Kalori: 640.0 kkal | Protein: 24.0g | Biaya: Rp 14000
+MNU-03 - Paket C: Nasi Ikan Gurame Bakar | Kalori: 650.0 kkal | Protein: 25.0g | Biaya: Rp 15000
+Total menu terdaftar: 3
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Ada perubahan belum disimpan!]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Perubahan belum disimpan. Abaikan? Ketik YA: Program selesai.
+
+[Skenario 3] Tambah kode yang sudah terdaftar
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+--- TAMBAH PAKET MENU MBG ---
+Kode Menu                       : Nama Menu                       : Input rincian gizi manual? (y/N): Data ditolak: Kode menu 'MNU-01' sudah terdaftar.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+
+[Skenario 4] Tambah kode atau judul berisi spasi saja
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+--- TAMBAH PAKET MENU MBG ---
+Kode Menu                       : Nama Menu                       : Input rincian gizi manual? (y/N): Data ditolak: Kode menu tidak boleh kosong.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+--- TAMBAH PAKET MENU MBG ---
+Kode Menu                       : Nama Menu                       : Input rincian gizi manual? (y/N): Data ditolak: Nama menu tidak boleh kosong.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+
+[Skenario 5] Tambah judul mengandung '|'
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+--- TAMBAH PAKET MENU MBG ---
+Kode Menu                       : Nama Menu                       : Input rincian gizi manual? (y/N): Data ditolak: Nama menu tidak boleh mengandung karakter pemisah '|' atau baris baru.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+
+[Skenario 6] Cari kode dengan huruf kecil, misalnya mnu-01
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Kode yang dicari: Menu ditemukan:
+  Kode        : MNU-01
+  Nama        : Paket A: Nasi Ayam Teriyaki & Tumis Sayur
+  Kalori      : 680.0 kkal
+  Protein     : 28.5 gram
+  Karbohidrat : 82.0 gram
+  Biaya Porsi : Rp 15000
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+
+[Skenario 7] Hapus kode yang tidak terdaftar
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Kode yang dihapus: Menu tidak ditemukan.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+
+[Skenario 8] Simpan, tutup, lalu jalankan kembali
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+--- TAMBAH PAKET MENU MBG ---
+Kode Menu                       : Nama Menu                       : Input rincian gizi manual? (y/N): Menu berhasil ditambahkan.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Ada perubahan belum disimpan!]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Data berhasil disimpan.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+--- Menjalankan kembali aplikasi (Verifikasi data MNU-05 tersimpan di file) ---
+[AUTO-LOAD] Berhasil memuat 3 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+=== DAFTAR MENU GIZI MBG ===
+MNU-01 - Paket A: Nasi Ayam Teriyaki & Tumis Sayur | Kalori: 680.0 kkal | Protein: 28.5g | Biaya: Rp 15000
+MNU-02 - Paket B: Nasi Telur Balado & Sayur Sop | Kalori: 640.0 kkal | Protein: 24.0g | Biaya: Rp 14000
+MNU-05 - Paket E: Nasi Rawon Daging Sapi | Kalori: 650.0 kkal | Protein: 25.0g | Biaya: Rp 15000
+Total menu terdaftar: 3
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Program selesai.
+
+[Skenario 9] Muat file dengan baris rusak atau kode duplikat
+State memori awal: 2 menu.
+Mencoba memuat berkas rusak ke dalam pengelola...
+Operasi file ditolak secara fail-fast: Format salah pada baris 1
+State memori setelah gagal memuat: 2 menu.
+Hasil: State Invariance TERBUKTI (Koleksi di memori tidak rusak atau kosong).
+
+[Skenario 10] Keluar saat ada perubahan, lalu batalkan
+[AUTO-LOAD] Berhasil memuat 2 data awal dari berkas 'mbg_data_test.txt'.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Semua perubahan tersimpan]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+--- TAMBAH PAKET MENU MBG ---
+Kode Menu                       : Nama Menu                       : Input rincian gizi manual? (y/N): Menu berhasil ditambahkan.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Ada perubahan belum disimpan!]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Perubahan belum disimpan. Abaikan? Ketik YA: Batal keluar. Kembali ke menu.
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Ada perubahan belum disimpan!]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: 
+=== DAFTAR MENU GIZI MBG ===
+MNU-01 - Paket A: Nasi Ayam Teriyaki & Tumis Sayur | Kalori: 680.0 kkal | Protein: 28.5g | Biaya: Rp 15000
+MNU-02 - Paket B: Nasi Telur Balado & Sayur Sop | Kalori: 640.0 kkal | Protein: 24.0g | Biaya: Rp 14000
+MNU-06 - Paket F: Nasi Pecel Ayam Madiun | Kalori: 650.0 kkal | Protein: 25.0g | Biaya: Rp 15000
+Total menu terdaftar: 3
+
+=== SISTEM MANAJEMEN MENU MAKAN BERGIZI GRATIS (MBG) ===
+Status Perubahan: [Ada perubahan belum disimpan!]
+1. Tambah Menu       2. Tampilkan Menu
+3. Cari Menu         4. Hapus Menu
+5. Simpan Data       6. Muat Ulang Data
+0. Keluar
+Pilihan: Perubahan belum disimpan. Abaikan? Ketik YA: Program selesai.
+
+================================================================================
+   SELURUH 10 SKENARIO UJI P14 & VERIFIKASI REGRESI 100% SUKSES!               
+================================================================================
